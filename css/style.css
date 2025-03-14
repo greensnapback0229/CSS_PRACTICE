@@ -137,19 +137,16 @@ footer {
   padding: 3vh 5vw;
 }
 
-
-#snb{
-    display: none;
+#snb {
+  display: none;
 }
 
 /* mobile */
 
 @media screen and (max-width: 968px) {
-
-
-    #snb{
-        display: block;
-    }
+  #snb {
+    display: block;
+  }
   header #gnb {
     display: none;
   }
@@ -165,10 +162,10 @@ footer {
     font-size: 15vw;
   }
 
-  header #snb .sub_menu {
+  header #snb .sub-menu {
     position: absolute;
-    padding: 10px, 25px;
-    border: 2px, solid white;
+    padding: 10px 25px;
+    border: 2px solid white;
     border-radius: 10px;
     right: 5vw;
     text-align: right;
@@ -177,12 +174,12 @@ footer {
     transition-duration: 0.4s;
   }
 
-  header #snb .sub_menu.hide {
+  header #snb .sub-menu.hide {
     visibility: hidden;
     opacity: 0;
   }
 
-  header #snb .sub_menu li {
+  header #snb .sub-menu li {
     font: bold 16px/1px 'Pretendard-Regular';
     color: white;
     padding: 10px 0px;
@@ -190,4 +187,5 @@ footer {
 
   header #snb .sub_menu li a i {
     margin-left: 8px;
+  }
 }
